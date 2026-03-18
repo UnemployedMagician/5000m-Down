@@ -1,3 +1,7 @@
 [gd_scene format=3 uid="uid://44wpocalmynx"]
 
-[node name="killerfish" type="Node2D" unique_id=467992306]
+[node name="World" type="Node2D" unique_id=1007002655]
+
+[node name="You" type="Node2D" parent="." unique_id=102549526]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="You" unique_id=231536502]
