@@ -1,7 +1,14 @@
 [gd_scene format=3 uid="uid://pvmwyvwydqc5"]
 
-[node name="World" type="Node2D" unique_id=921215199]
+[ext_resource type="Texture2D" uid="uid://ceji0ckrnowfi" path="res://Kim (PLACEHOLDER).png" id="1_f3sb7"]
 
-[node name="Player" type="Node2D" parent="." unique_id=2126121415]
+[node name="The Sea" type="Node2D" unique_id=921215199]
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player" unique_id=403232198]
+[node name="John Meter" type="CharacterBody2D" parent="." unique_id=428284330]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="John Meter" unique_id=1084016565]
+
+[node name="Sprite2D" type="Sprite2D" parent="John Meter" unique_id=932295237]
+texture = ExtResource("1_f3sb7")
+
+[node name="Camera2D" type="Camera2D" parent="John Meter" unique_id=1204447391]
