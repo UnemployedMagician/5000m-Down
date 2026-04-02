@@ -1,14 +1,24 @@
-[gd_resource type="TileSet" format=3 uid="uid://kn3t0y4flel3"]
+[gd_resource type="TileSet" load_steps=5 format=3 uid="uid://kn3t0y4flel3"]
 
-[ext_resource type="Texture2D" uid="uid://dffowexb55jck" path="res://icon.svg" id="1_ni50x"]
+[ext_resource type="Texture2D" uid="uid://dga4u60nbnymq" path="res://diamondplatethingy.jpeg" id="1_ifg2e"]
+[ext_resource type="Texture2D" uid="uid://bmnwl0w6hbaba" path="res://metals.jpeg" id="1_yq8qt"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ni50x"]
-texture = ExtResource("1_ni50x")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_oqq2q"]
+texture = ExtResource("1_yq8qt")
 texture_region_size = Vector2i(128, 128)
 0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ni50x"]
+texture = ExtResource("1_ifg2e")
+texture_region_size = Vector2i(128, 128)
+0:0/next_alternative_id = 3
+0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-64, -64, 64, -64, 64, 64, -64, 64)
+0:0/1 = 1
+0:0/1/physics_layer_0/polygon_0/points = PackedVector2Array(-64, -64, 64, -64, 64, 64, -64, 64)
 
 [resource]
 tile_size = Vector2i(128, 128)
 physics_layer_0/collision_layer = 1
 sources/3 = SubResource("TileSetAtlasSource_ni50x")
+sources/2 = SubResource("TileSetAtlasSource_oqq2q")
