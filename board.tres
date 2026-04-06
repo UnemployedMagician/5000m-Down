@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" format=3 uid="uid://kn3t0y4flel3"]
+[gd_resource type="TileSet" load_steps=7 format=3 uid="uid://kn3t0y4flel3"]
 
 [ext_resource type="Texture2D" uid="uid://dga4u60nbnymq" path="res://diamondplatethingy.jpeg" id="1_ifg2e"]
 [ext_resource type="Texture2D" uid="uid://djbrjc5rvyijg" path="res://floor.jpg" id="1_oqq2q"]
@@ -7,23 +7,14 @@
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lj1mv"]
 texture = ExtResource("1_oqq2q")
 texture_region_size = Vector2i(128, 128)
-1:1/next_alternative_id = 4
-1:1/0 = 0
-1:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_oqq2q"]
 texture = ExtResource("1_yq8qt")
 texture_region_size = Vector2i(128, 128)
-0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ni50x"]
 texture = ExtResource("1_ifg2e")
 texture_region_size = Vector2i(128, 128)
-0:0/next_alternative_id = 3
-0:0/0 = 0
-0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-64, -64, 64, -64, 64, 64, -64, 64)
-0:0/1 = 1
-0:0/1/physics_layer_0/polygon_0/points = PackedVector2Array(-64, -64, 64, -64, 64, 64, -64, 64)
 
 [resource]
 tile_size = Vector2i(128, 128)
